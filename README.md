@@ -1,74 +1,90 @@
-🧠 AI Voice & Text Emotion Detection System
+# 🧠 AI Voice & Text Emotion Detection System
 
-This project is an AI-based Emotion Detection System that analyzes human emotions from both text and voice inputs.
-Users can either type a sentence or upload a voice recording, and the system predicts the emotional state behind the input using Artificial Intelligence techniques.
+An AI-based web application that detects **human emotions from both text and voice inputs**.  
+Users can type a message or upload a voice recording, and the system analyzes the input to predict the **emotional state** using Artificial Intelligence techniques.
 
-🔗 Live Project Demo:
+🔗 **Live Demo:**  
 https://ai-voice-text-emotio-8yje.bolt.host
 
-🎯 Project Objective
+---
 
-The main goal of this project is to:
+## 📌 Project Overview
 
-Understand how AI can interpret human emotions
+Understanding human emotions is an important part of Human–Computer Interaction.  
+This project demonstrates how **Artificial Intelligence and Machine Learning concepts** can be applied to analyze emotions from:
 
-Apply Natural Language Processing (NLP) for text analysis
+- Text input using Natural Language Processing (NLP)
+- Voice input using Audio Feature Extraction
 
-Apply audio feature extraction for voice emotion detection
+The project is developed mainly for **academic and learning purposes**.
 
-Build a simple and interactive AI application for real-life use cases
+---
 
-🚀 Key Features
+## 🎯 Project Objectives
 
-✍️ Text Emotion Detection
-Detects emotion from user-entered text.
+- To analyze emotions from text input
+- To detect emotions from voice recordings
+- To apply AI concepts in a real-world application
+- To build a simple and interactive emotion detection system
 
-🎤 Voice Emotion Detection
-Analyzes voice recordings and predicts emotion.
+---
 
-🧠 AI-based Analysis
-Uses sentiment analysis and audio feature extraction.
+## 🚀 Features
 
-🌐 Web-based Interface
-Simple, clean, and easy-to-use UI.
+- ✍️ Text-based emotion detection  
+- 🎤 Voice-based emotion detection  
+- 🧠 AI-powered analysis  
+- 🌐 Web-based user interface  
+- ⚡ Real-time emotion prediction  
 
-😃 Supported Emotions
+---
 
-Happy 😊
+## 😃 Supported Emotions
 
-Sad 😔
+- Happy 😊  
+- Sad 😔  
+- Angry 😡  
+- Neutral 😐  
 
-Angry 😡
+*(Emotion detection may vary depending on user input.)*
 
-Neutral 😐
+---
 
-(Emotions may vary based on input patterns.)
+## 🛠️ Technologies Used
 
-🛠️ Technologies Used
+- **Python** – Core programming language  
+- **Streamlit** – Web application framework  
+- **TextBlob** – Text sentiment analysis  
+- **Librosa** – Audio processing and feature extraction  
+- **NumPy** – Numerical operations  
 
-Python
+---
 
-Streamlit – for web interface
+## 🔄 How the System Works
 
-TextBlob – for text sentiment analysis
+1. User provides input in the form of:
+   - Text message  
+   - Voice recording  
 
-Librosa – for audio processing
+2. The system processes the input:
+   - Text input is analyzed using NLP sentiment analysis
+   - Voice input is analyzed using audio feature extraction
 
-NumPy – for numerical operations
+3. AI logic evaluates the processed data
 
-🔄 How the Project Works
+4. The detected emotion is displayed on the screen
 
-User provides text input or voice input
+---
 
-Input is processed using AI techniques:
+## 📁 Project Structure
 
-Text → NLP sentiment analysis
+ai-emotion-detector/
+│
+├── app.py
+├── requirements.txt
+└── README.md
 
-Voice → Audio feature extraction
 
-AI model analyzes the input
-
-Detected emotion is displayed on the screen
 
 📌 Use Cases
 
@@ -80,16 +96,20 @@ Learning project for AI & ML students
 
 Human-computer interaction research
 
+
+
 ⚠️ Disclaimer
 
 This project is developed only for educational and learning purposes.
 It does not provide medical or psychological diagnosis.
 
+
+
 👨‍💻 Developer
 
 Project Type: Academic / Learning Project
 
-Developed By: Student
+Developed By: Shubham Raj
 
 Domain: Artificial Intelligence & Machine Learning
 
